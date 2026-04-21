@@ -10,6 +10,12 @@ Hybrid Linear Diffusion Transformer is a text-to-image diffusion project built a
 -  FP8 training with `torchao`, `torch.compile`, EMA, and classifier-free guidance.
 - Inference script for Euler or Heun sampling from saved checkpoints.
 - Final best checkpoint selected visually from training: `step_028000` EMA.
+<img width="1620" height="2670" alt="gridlatest" src="https://github.com/user-attachments/assets/8dca8f1f-c231-4314-bc16-443d77d322cc" />
+
+<img width="1536" height="1024" alt="modelarchituecture" src="https://github.com/user-attachments/assets/1469dd51-371b-4672-a25e-a27b9bf52316" />
+
+
+
 
 ## Final Model Summary
 
