@@ -109,10 +109,6 @@ scratchdiffusion/
 ├── precompute_wds_cache.py
 ├── train.py
 ├── requirements.txt
-├── HF_MODEL_CARD.md
-└── docs/
-    ├── final_project_report.md
-    └── resume_points.md
 ```
 
 ## Installation
