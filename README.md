@@ -2,6 +2,13 @@
 
 Hybrid Linear Diffusion Transformer is a text-to-image diffusion project built around a custom Flow-Matching Diffusion Transformer trained in DC-AE latent space. The final project combines a `148.5M` parameter hybrid linear/full-attention DiT, frozen T5-base text conditioning, frozen DC-AE latents, and a WebDataset-based latent cache pipeline for fast large-scale iteration.
 
+## Key Contributions
+
+- Hybrid linear + full attention diffusion transformer
+- Anchor block design for global reasoning
+- Latent cache WebDataset training pipeline
+- Flow-matching training in latent space
+
 ## Highlights
 
 - Custom `LinearDiT v2` architecture with token-funnel conditioning, per-block QKV, per-block adaLN, and full-attention anchor blocks.
