@@ -1,0 +1,15 @@
+torch>=2.5
+torchvision>=0.20
+numpy>=1.26
+pillow>=10.0
+matplotlib>=3.8
+tqdm>=4.66
+wandb>=0.18
+datasets>=3.0
+diffusers>=0.32
+transformers>=4.45
+huggingface_hub>=0.26
+webdataset>=0.2.100
+
+# Optional but recommended for FP8 runs
+torchao>=0.10
