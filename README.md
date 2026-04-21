@@ -7,7 +7,7 @@ Hybrid Linear Diffusion Transformer is a text-to-image diffusion project built a
 - Custom `LinearDiT v2` architecture with token-funnel conditioning, per-block QKV, per-block adaLN, and full-attention anchor blocks.
 - Flow-matching training objective in `32 x 16 x 16` DC-AE latent space.
 - Support for raw-image training and much faster latent-cache training.
-- Optional FP8 training with `torchao`, `torch.compile`, EMA, and classifier-free guidance.
+-  FP8 training with `torchao`, `torch.compile`, EMA, and classifier-free guidance.
 - Inference script for Euler or Heun sampling from saved checkpoints.
 - Final best checkpoint selected visually from training: `step_028000` EMA.
 
